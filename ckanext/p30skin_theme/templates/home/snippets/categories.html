@@ -1,0 +1,49 @@
+{% set current_lang = request.environ.CKAN_LANG %}
+{% set current_page = request.environ.CKAN_CURRENT_URL %}
+{# % set categories = h.p30skin_theme_get_groups() % #}
+
+<div class="categories container-fluid categories__row">
+        <div class="container ">
+            <div class="row ">
+
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <a class="categories__card" href="/group/project_1">
+                        <img src="/images/ui/group1.png" alt="" class="responsive categories__card-img">
+                        <span class="categories__card-title text-purple">Group 1<br /> Epidermal biology</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <a class="categories__card" href="/group/project_2">
+                        <img src="/images/ui/group2.png" alt="" class="responsive categories__card-img">
+                        <span class="categories__card-title text-blue">Group 2<br /> Pigment and Merkel cell biology</span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <a class="categories__card" href="/group/project_3">
+                        <img src="/images/ui/group3.png" alt="" class="responsive categories__card-img">
+                        <span class="categories__card-title text-orange">Group 3<br /> Skin vascular biology</span>
+                    </a>
+                </div> 
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <a class="categories__card" href="/group/clinical_core">
+                        <img src="/images/ui/imaging.png" alt="" class="responsive categories__card-img">
+                        <span class="categories__card-title text-blue">Imaging Core<br /></span>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <a class="categories__card" href="/group/clinical_core">
+                        <img src="/images/ui/systemsbio.png" alt="" class="responsive categories__card-img">
+                        <span class="categories__card-title text-blue">Systems Biology Core<br /></span>
+                    </a>
+                </div>
+		<div class="col-md-2 col-sm-4 col-xs-6">                                                                                                                                                           
+                    <a class="categories__card" href="/group/multiomics_core">                                                                                                                                      
+                        <img src="/images/ui/bioinformatics.png" alt="" class="responsive categories__card-img">                                                                                                    
+                        <span class="categories__card-title text-purple">Multi-Omics Core<br /></span>                                                                                                                 
+                    </a>                                                                                                                                                                                           
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  

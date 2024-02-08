@@ -1,0 +1,32 @@
+p30skin_css:
+  filter: cssrewrite
+  output: p30skin_theme/%(version)s_p30skin.css
+  contents:
+    - p30skin.css
+
+p30skin_js:
+  filter: rjsmin
+  output: p30skin_theme/%(version)s_p30skin.js
+  extra:
+    preload:
+      - base/main
+      - base/ckan
+      - p30skin_theme/p30skin_css
+  contents:
+      - p30skin.js
+      - vantacell-loading.js
+      
+p30skin:
+  output: p30skin_theme/%(version)s_p30skin.js
+  extra:
+    preload:
+      - base/main
+      - base/ckan
+      - p30skin_theme/p30skin_css
+  contents:
+    - p30skin.js
+    - vantacell-loading.js
+
+# unused :
+#jquery-ui.js theme_location.js off-canvas.js responsive.css
+
