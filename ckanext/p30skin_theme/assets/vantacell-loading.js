@@ -1,5 +1,5 @@
 VANTA.CELLS({
-  el: "vanta-js",
+  el: "#vanta-js",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
