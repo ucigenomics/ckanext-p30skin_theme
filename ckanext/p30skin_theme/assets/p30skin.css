@@ -1408,7 +1408,7 @@ h1, h2, h3, h4, h5, h6,
   padding-top: 2em;
   padding-bottom: 0;
 }
-#particles-js{
+#vanta-js{
   height: 340px;
    background: rgb(255,153,51); /* Old browsers */
     background: -moz-linear-gradient(-45deg, rgb(156,186,172) 0%, rgb(145,176,199) 48%, rgb(25,11,107) 100%); /* FF3.6-15 */
@@ -1730,7 +1730,7 @@ li.media-item {
     color: #ffffff;
     background: #18ac90;
 }
-.particles-js-canvas-el{
+.vanta-js-canvas-el{
       margin-top: -165px;
 }
 
